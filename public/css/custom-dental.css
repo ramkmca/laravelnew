@@ -1,0 +1,24 @@
+.logo-container .logo-infocard {background-color: #46b6cc;}
+.kl-cta-ribbon {background-color: #46b6cc;}
+.kl-cta-ribbon .trisvg path {fill: #46b6cc;}
+.works_carousel.stl-simple .inner-slide:hover [data-role="title"] a, 
+.works_carousel.stl-simple .inner-slide [data-role="title"] a:hover {color: #46b6cc!important;}
+.tcolor {color: #46b6cc !important;}
+.kl-iconbox__icon.small {max-width: 60px;}
+.btn-fullcolor, .btn-fullcolor:focus {background-color: #46b6cc;}
+.btn-fullcolor:hover, 
+.btn-fullcolor.btn-skewed:hover:before, 
+.cart-container .buttons .button.wc-forward:hover {background-color: #378fa0;}
+
+@media (min-width: 992px) {
+	.main-nav > ul > li > a:before,
+	.main-nav ul .zn-mega-new-item {background-color: #46b6cc;}
+}
+.chaser .main-menu li.active>a {background: #46b6cc !important;}
+
+.testimonial_slider.quoter-style .testimonialbox .who strong,
+.testimonialbox .who,
+.testimonialbox .tcontent {color: #fff;}
+.testimonial_slider.quoter-style .cfs--pagination a.selected {background-color: #46b6cc;}
+.socialbox {background-color: #fff;}
+#footer {border-top: 0;}
