@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use app\http\controllers\EremployeeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+    //Route::post('employee/add', [App\Http\Controllers\EremployeeController::class, 'add']);
 });
+Route::post('employee/add', [App\Http\Controllers\EremployeeController::class, 'add']);
+//Route::get('employee', [App\Http\Controllers\EremployeeController::class, 'index'])->name('employee');
